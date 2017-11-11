@@ -35,3 +35,7 @@ BoardMember.prototype.veto = function() {
 BoardMember.prototype.approve = function(){
      return 'You can do that!'
    }
+
+BoardMember.prototype.doCharity = function() {
+  return 'I like to help people.'
+}
